@@ -1,0 +1,10 @@
+function ProfileCard({name, role, bio}){
+    return(
+        <div style={{ border: '1px solid #ccc', padding: '20px', borderRadius: '10px'}}>
+            <h2>{name}</h2>
+            <p><storng>Role:</storng> {role}</p>
+            <p>{bio}</p>
+        </div>
+    );
+}
+export default ProfileCard;
