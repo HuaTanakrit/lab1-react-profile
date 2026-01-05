@@ -10,6 +10,7 @@ function ProfileCard({name, role, bio}){
             <button onClick = {() => setLikes(likes + 1)}>
                 ❤️ Like : {likes}
             </button>
+            
         </div>
     );
 }
